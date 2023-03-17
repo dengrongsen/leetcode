@@ -35,7 +35,7 @@ func reverse(x int) int {
 	}
 
 	if flag {
-		res = ^res +1
+		res = -res
 	}
 
 	// 校验
